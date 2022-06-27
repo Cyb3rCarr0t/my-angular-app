@@ -3,10 +3,26 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ExampleComponent } from './example/example.component';
+import { PeopleListComponent } from './people-list/people-list.component';
+import { ParamsExampleComponent } from './params-example/params-example.component';
+import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
+import { CounterButtonComponent } from './counter-button/counter-button.component';
+import { CounterButtonPageComponent } from './counter-button-page/counter-button-page.component';
+import { MultipleChoiceComponent } from './multiple-choice/multiple-choice.component';
+import { EventHandlingComponent } from './event-handling/event-handling.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ExampleComponent,
+    PeopleListComponent,
+    ParamsExampleComponent,
+    NotFoundPageComponent,
+    CounterButtonComponent,
+    CounterButtonPageComponent,
+    MultipleChoiceComponent,
+    EventHandlingComponent
   ],
   imports: [
     BrowserModule,

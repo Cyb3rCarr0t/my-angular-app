@@ -12,6 +12,9 @@ hairColor="Blonde"
 
 </app-people-list>
 -->
+
+<app-congratulations-message [count] = "count" [threshold] = "threshold"></app-congratulations-message>
+<app-counter-button [count]="count" (buttonCLicked)="incrementCount()"></app-counter-button>
 <app-event-handling></app-event-handling>
 
 <app-multiple-choice
@@ -19,11 +22,9 @@ hairColor="Blonde"
     (b) = "doSomethingElse()"
     (c) = "doSomething()"
     (d) = "doAnotherThing()"
->
-
-</app-multiple-choice>
+></app-multiple-choice>
 <!--<app-multiple-choice (a) ="doSomething()" (b)="" (c)="" (d)=""></app-multiple-choice>
 -->
-<app-counter-button></app-counter-button>
+
 <router-outlet></router-outlet>
  

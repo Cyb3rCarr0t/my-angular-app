@@ -11,6 +11,7 @@ import { CounterButtonComponent } from './counter-button/counter-button.componen
 import { CounterButtonPageComponent } from './counter-button-page/counter-button-page.component';
 import { MultipleChoiceComponent } from './multiple-choice/multiple-choice.component';
 import { EventHandlingComponent } from './event-handling/event-handling.component';
+import { CongratulationsMessageComponent } from './congratulations-message/congratulations-message.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { EventHandlingComponent } from './event-handling/event-handling.componen
     CounterButtonComponent,
     CounterButtonPageComponent,
     MultipleChoiceComponent,
-    EventHandlingComponent
+    EventHandlingComponent,
+    CongratulationsMessageComponent
   ],
   imports: [
     BrowserModule,

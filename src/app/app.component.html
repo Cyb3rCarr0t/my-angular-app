@@ -13,6 +13,8 @@ hairColor="Blonde"
 </app-people-list>
 -->
 
+<app-nav-bar></app-nav-bar>
+
 <app-congratulations-message [count] = "count" [threshold] = "threshold"></app-congratulations-message>
 <app-counter-button *ngIf="showCounterButton" [count]="count" (buttonCLicked)="incrementCount()"></app-counter-button>
 
@@ -30,4 +32,6 @@ hairColor="Blonde"
 -->
 
 <router-outlet></router-outlet>
- 
+ <div>
+    Copyright Carolina Mascitti 2022
+ </div>

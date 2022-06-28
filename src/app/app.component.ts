@@ -19,7 +19,7 @@ export class AppComponent {
   toggleCounterButton(): void{
     this.showCounterButton = !this.showCounterButton;
   }
-
+  
   doSomething(): void{
     alert('Doing something...');
   }
@@ -30,4 +30,5 @@ export class AppComponent {
   doAnotherThing(): void{
     alert('Doing another thing...');
   }
+
 }

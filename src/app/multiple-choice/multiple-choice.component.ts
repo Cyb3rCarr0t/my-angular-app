@@ -34,4 +34,6 @@ export class MultipleChoiceComponent implements OnInit {
     this.d.emit();
   }
 
+  
+
 }

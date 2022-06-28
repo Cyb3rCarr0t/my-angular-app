@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +14,9 @@ import { CounterButtonPageComponent } from './counter-button-page/counter-button
 import { MultipleChoiceComponent } from './multiple-choice/multiple-choice.component';
 import { EventHandlingComponent } from './event-handling/event-handling.component';
 import { CongratulationsMessageComponent } from './congratulations-message/congratulations-message.component';
+import { UserInfoFormComponent } from './user-info-form/user-info-form.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { UserInfoDisplayComponent } from './user-info-display/user-info-display.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +29,16 @@ import { CongratulationsMessageComponent } from './congratulations-message/congr
     CounterButtonPageComponent,
     MultipleChoiceComponent,
     EventHandlingComponent,
-    CongratulationsMessageComponent
+    CongratulationsMessageComponent,
+    UserInfoFormComponent,
+    NavBarComponent,
+    UserInfoDisplayComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

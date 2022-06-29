@@ -17,6 +17,9 @@ import { CongratulationsMessageComponent } from './congratulations-message/congr
 import { UserInfoFormComponent } from './user-info-form/user-info-form.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { UserInfoDisplayComponent } from './user-info-display/user-info-display.component';
+import { ButtonComponent } from './button/button.component';
+import { DangerButtonComponent } from './danger-button/danger-button.component';
+import { SuccessButtonComponent } from './success-button/success-button.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { UserInfoDisplayComponent } from './user-info-display/user-info-display.
     CongratulationsMessageComponent,
     UserInfoFormComponent,
     NavBarComponent,
-    UserInfoDisplayComponent
+    UserInfoDisplayComponent,
+    ButtonComponent,
+    DangerButtonComponent,
+    SuccessButtonComponent
   ],
   imports: [
     BrowserModule,

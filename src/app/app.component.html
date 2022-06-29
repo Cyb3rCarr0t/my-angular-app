@@ -14,6 +14,9 @@ hairColor="Blonde"
 -->
 
 <app-nav-bar></app-nav-bar>
+<!--<app-button text ="Success!" bgColor="#00FF00"></app-button> -->
+<app-success-button></app-success-button>
+<app-danger-button></app-danger-button>
 
 <app-congratulations-message [count] = "count" [threshold] = "threshold"></app-congratulations-message>
 <app-counter-button *ngIf="showCounterButton" [count]="count" (buttonCLicked)="incrementCount()"></app-counter-button>

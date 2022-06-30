@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-angular-app';
-
+  /*
   count: number = 0;
   threshold: number = 10;
   showCounterButton: boolean = true;
@@ -18,7 +18,7 @@ export class AppComponent {
 
   toggleCounterButton(): void{
     this.showCounterButton = !this.showCounterButton;
-  }
+  }*/
   
   doSomething(): void{
     alert('Doing something...');

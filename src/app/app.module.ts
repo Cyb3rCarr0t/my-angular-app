@@ -20,6 +20,10 @@ import { UserInfoDisplayComponent } from './user-info-display/user-info-display.
 import { ButtonComponent } from './button/button.component';
 import { DangerButtonComponent } from './danger-button/danger-button.component';
 import { SuccessButtonComponent } from './success-button/success-button.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -45,6 +49,10 @@ import { SuccessButtonComponent } from './success-button/success-button.componen
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+    FontAwesomeModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatTabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

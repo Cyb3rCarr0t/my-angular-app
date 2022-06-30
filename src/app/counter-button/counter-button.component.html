@@ -1,4 +1,7 @@
 <div> 
     <p>The button has been clicked {{count}} times</p>
-    <button (click)="onClick()"> Click Me!</button>
+    <button (click)="onClick()" mat-raised-button color = "accent"> 
+        <fa-icon [icon] ="pointerIcon"></fa-icon>
+        Click Me!
+    </button>
 </div>
